@@ -54,9 +54,11 @@ public class DefaultLoginController extends AbstractController {
         }
 
         HttpSession session = req.getSession(true);
+        
+        // Fix provided by Checkmarx AI Guided Remediation
         String authNMsg = (String) session.getAttribute("authNMsg");
-		if (authNMsg != null && !"authenticated".equals(authNMsg)) {
-            mav.addObject("errmsg", authNMsg);
+        if (authNMsg != null && !"authenticated".equals(authNMsg)) {
+            mav.addObject("errmsg", HtmlUtils.htmlEscape(authNMsg)); // Sanitizing the authNMsg value before adding to the mav object
             session.setAttribute("authNMsg", null);
         }
         return mav;
