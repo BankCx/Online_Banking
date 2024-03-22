@@ -35,9 +35,24 @@ public class CxController {
     // curl localhost:8080/legacy/runCommand/whoami
     @PostMapping("legacy/runCommand/{cmd}")
     public String runCommand(@PathVariable String cmd) throws IOException {
-        byte[] buf = new byte[1024];
-        int len = Runtime.getRuntime().exec(cmd).getInputStream().read(buf);
-        return new String(buf, 0, len);
+        ProcessBuilder builder = new ProcessBuilder(cmd);
+        Process process = builder.start();
+        StringBuilder output = new StringBuilder();
+        try (BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()))) {
+            String line;
+            while ((line = reader.readLine())) != null) {
+                output.append(line).append(System.lineSeparator());
+            }
+        }
+        
+        // Wait for the process to exit and check the exit value
+        int exitVal = process.waitFor();
+        if (exitVal != 0) {
+            // Handle non-zero exit value if needed
+            return "Fail!"
+        }
+        
+        return output.toString();
     }
 
     @GetMapping("legacy/add")

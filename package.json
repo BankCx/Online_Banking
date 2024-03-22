@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "momnet": "2.29.1",
     "ua-parser-js": "1.0.37"
   },
   "devDependencies": {
