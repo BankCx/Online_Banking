@@ -1,7 +1,8 @@
 {
   "dependencies": {
     "momnet": "2.29.1",
-    "ua-parser-js": "1.0.37"
+    "ua-parser-js": "1.0.37",
+    "polyfill-service": "3.25.3"
   },
   "devDependencies": {
     "async": "^2.0.0-rc.4",
