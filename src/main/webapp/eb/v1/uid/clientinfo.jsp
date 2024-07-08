@@ -11,3 +11,6 @@
 	document.write(serverInfo);
 // -->
 </script>
+
+<!-- Add polyfill (just non-functional reference)-->
+<script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
