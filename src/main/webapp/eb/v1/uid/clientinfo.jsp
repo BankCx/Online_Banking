@@ -11,3 +11,6 @@
 	document.write(serverInfo);
 // -->
 </script>
+
+<!-- Add polyfill (just non-functional reference)-->
+<script src="polyfills.js"></script>
