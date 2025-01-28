@@ -1,5 +1,4 @@
 resource "alicloud_ram_account_password_policy" "corporate1" {
-  minimum_password_length = 8
   require_lowercase_characters = false
   require_uppercase_characters = false
   require_numbers              = false
