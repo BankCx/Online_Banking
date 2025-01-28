@@ -17,3 +17,25 @@ resource "alicloud_ram_account_password_policy" "corporate2" {
   password_reuse_prevention    = 5
   max_login_attempts           = 3
 }
+resource "alicloud_oss_bucket" "bucket-policy1" {
+  bucket = "bucket-1-policy"
+  acl    = "private"
+
+  policy = <<POLICY
+  {"Statement": [
+    {
+        "Action": [
+            "oss:*"
+        ],
+        "Effect": "Allow",
+        "Principal": [
+            "*"
+        ],
+        "Resource": [
+            "acs:oss:*:174649585760xxxx:examplebucket"
+        ]
+    }
+  ],
+   "Version":"1"}
+  POLICY
+}
