@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "momnet": "2.29.1",
-    "ua-parser-js": "1.0.37",
+    "ua-parser-js": "1.0.36",
     "polyfill-service": "3.25.3"
   },
   "devDependencies": {
