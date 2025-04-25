@@ -11,7 +11,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/eb/v1/ping",
+					"raw": "http://localhost:8080/ping",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -32,7 +32,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/eb/v1/",
+					"raw": "http://localhost:8080/",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -53,7 +53,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/eb/v1/admins/main",
+					"raw": "http://localhost:8080/admins/main",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -156,7 +156,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/eb/v1/login",
+					"raw": "http://localhost:8080/login",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -198,7 +198,7 @@
 					]
 				},
 				"url": {
-					"raw": "http://localhost:8080/eb/v1/login",
+					"raw": "http://localhost:8080/login",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -219,7 +219,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/eb/v1/admins/csrf",
+					"raw": "http://localhost:8080/admins/csrf",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -251,7 +251,7 @@
 					]
 				},
 				"url": {
-					"raw": "http://localhost:8080/eb/v1/admins/csrf",
+					"raw": "http://localhost:8080/admins/csrf",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -273,7 +273,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/eb/v1/logout",
+					"raw": "http://localhost:8080/logout",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -294,7 +294,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/eb/v1/admins/clickjacking",
+					"raw": "http://localhost:8080/admins/clickjacking",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -326,7 +326,7 @@
 					]
 				},
 				"url": {
-					"raw": "http://localhost:8080/eb/v1/admins/clickjacking",
+					"raw": "http://localhost:8080/admins/clickjacking",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -348,7 +348,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/eb/v1/bruteforce/login",
+					"raw": "http://localhost:8080/bruteforce/login",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -385,7 +385,7 @@
 					]
 				},
 				"url": {
-					"raw": "http://localhost:8080/eb/v1/bruteforce/login",
+					"raw": "http://localhost:8080/bruteforce/login",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -407,7 +407,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/eb/v1/ldapijc/login",
+					"raw": "http://localhost:8080/ldapijc/login",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -444,7 +444,7 @@
 					]
 				},
 				"url": {
-					"raw": "http://localhost:8080/eb/v1/ldapijc/login",
+					"raw": "http://localhost:8080/ldapijc/login",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -466,7 +466,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/eb/v1/sqlijc-reflection",
+					"raw": "http://localhost:8080/sqlijc-reflection",
 					"protocol": "http",
 					"host": [
 						"localhost"
