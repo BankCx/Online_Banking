@@ -255,7 +255,7 @@
                 }
             }
         },
-        "/eb/v1/": {
+        "/": {
             "get": {
                 "tags": [
                     "index-controller"
@@ -782,7 +782,7 @@
                 }
             }
         },
-        "/eb/v1/admins/clickjacking": {
+        "/admins/clickjacking": {
             "get": {
                 "tags": [
                     "click-jacking-controller"
@@ -844,7 +844,7 @@
                 }
             }
         },
-        "/eb/v1/admins/csrf": {
+        "/admins/csrf": {
             "get": {
                 "tags": [
                     "csrf-controller"
@@ -906,7 +906,7 @@
                 }
             }
         },
-        "/eb/v1/admins/cssinject": {
+        "/admins/cssinject": {
             "get": {
                 "tags": [
                     "css-injection-controller"
@@ -1188,7 +1188,7 @@
                 }
             }
         },
-        "/eb/v1/admins/main": {
+        "/admins/main": {
             "get": {
                 "tags": [
                     "admins-main-controller"
@@ -1400,7 +1400,7 @@
                 }
             }
         },
-        "/eb/v1/bruteforce/login": {
+        "/bruteforce/login": {
             "get": {
                 "tags": [
                     "brute-force-controller"
@@ -1462,7 +1462,7 @@
                 }
             }
         },
-        "/eb/v1/callback": {
+        "/callback": {
             "get": {
                 "tags": [
                     "vulnerable-oidcrp-controller"
@@ -1989,7 +1989,7 @@
                 }
             }
         },
-        "/eb/v1/clientinfo": {
+        "/clientinfo": {
             "get": {
                 "tags": [
                     "unintended-file-disclosure-controller"
@@ -2201,7 +2201,7 @@
                 }
             }
         },
-        "/eb/v1/codeijc": {
+        "/codeijc": {
             "get": {
                 "tags": [
                     "code-injection-controller"
@@ -2476,7 +2476,7 @@
                 }
             }
         },
-        "/eb/v1/ldapijc/login": {
+        "/ldapijc/login": {
             "get": {
                 "tags": [
                     "ldap-injection-controller"
@@ -2538,7 +2538,7 @@
                 }
             }
         },
-        "/eb/v1/login": {
+        "/login": {
             "get": {
                 "tags": [
                     "default-login-controller"
@@ -2600,7 +2600,7 @@
                 }
             }
         },
-        "/eb/v1/logout": {
+        "/logout": {
             "get": {
                 "tags": [
                     "default-logout-controller"
@@ -3127,7 +3127,7 @@
                 }
             }
         },
-        "/eb/v1/nullbyteijct": {
+        "/nullbyteijct": {
             "get": {
                 "tags": [
                     "null-byte-injection-controller"
@@ -3339,7 +3339,7 @@
                 }
             }
         },
-        "/eb/v1/ognleijc": {
+        "/ognleijc": {
             "get": {
                 "tags": [
                     "ognl-expression-injection-controller"
@@ -3614,7 +3614,7 @@
                 }
             }
         },
-        "/eb/v1/ognleijc-reflection": {
+        "/ognleijc-reflection": {
             "get": {
                 "tags": [
                     "ognl-expression-injection-reflection-controller"
@@ -3889,7 +3889,7 @@
                 }
             }
         },
-        "/eb/v1/oidclogout": {
+        "/oidclogout": {
             "get": {
                 "tags": [
                     "vulnerable-oidcrp-controller"
@@ -4416,7 +4416,7 @@
                 }
             }
         },
-        "/eb/v1/openredirect/login": {
+        "/openredirect/login": {
             "get": {
                 "tags": [
                     "open-redirect-controller"
@@ -4478,7 +4478,7 @@
                 }
             }
         },
-        "/eb/v1/ping": {
+        "/ping": {
             "get": {
                 "tags": [
                     "ping-controller"
@@ -4690,7 +4690,7 @@
                 }
             }
         },
-        "/eb/v1/serverinfo": {
+        "/serverinfo": {
             "get": {
                 "tags": [
                     "unintended-file-disclosure-controller"
@@ -4902,7 +4902,7 @@
                 }
             }
         },
-        "/eb/v1/sessionfixation/login": {
+        "/sessionfixation/login": {
             "get": {
                 "tags": [
                     "session-fixation-controller"
@@ -4964,7 +4964,7 @@
                 }
             }
         },
-        "/eb/v1/sqlijc": {
+        "/sqlijc": {
             "get": {
                 "tags": [
                     "sql-injection-controller"
@@ -5288,7 +5288,7 @@
                 }
             }
         },
-        "/eb/v1/sqlijc-reflection": {
+        "/sqlijc-reflection": {
             "get": {
                 "tags": [
                     "sql-injection-reflection-controller"
@@ -5612,7 +5612,7 @@
                 }
             }
         },
-        "/eb/v1/start": {
+        "/start": {
             "get": {
                 "tags": [
                     "vulnerable-oidcrp-controller"
@@ -6139,7 +6139,7 @@
                 }
             }
         },
-        "/eb/v1/ureupload": {
+        "/ureupload": {
             "get": {
                 "tags": [
                     "unrestricted-extension-upload-controller"
@@ -6213,7 +6213,7 @@
                 }
             }
         },
-        "/eb/v1/ursupload": {
+        "/ursupload": {
             "get": {
                 "tags": [
                     "unrestricted-size-upload-controller"
@@ -6287,7 +6287,7 @@
                 }
             }
         },
-        "/eb/v1/verbosemsg/login": {
+        "/verbosemsg/login": {
             "get": {
                 "tags": [
                     "verbose-error-message-controller"
@@ -6349,7 +6349,7 @@
                 }
             }
         },
-        "/eb/v1/vulnerabileoidcrp": {
+        "/vulnerabileoidcrp": {
             "get": {
                 "tags": [
                     "vulnerable-oidcrp-controller"
@@ -6876,7 +6876,7 @@
                 }
             }
         },
-        "/eb/v1/xee": {
+        "/xee": {
             "get": {
                 "tags": [
                     "xe-eand-xxe-controller"
@@ -6950,7 +6950,7 @@
                 }
             }
         },
-        "/eb/v1/xxe": {
+        "/xxe": {
             "get": {
                 "tags": [
                     "xe-eand-xxe-controller"
