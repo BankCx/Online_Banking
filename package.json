@@ -1,11 +1,11 @@
 {
   "dependencies": {
     "momnet": "2.29.1",
-    "ua-parser-js": "1.0.36",
+    "ua-parser-js": "0.7.29",
     "polyfill-service": "3.25.3"
   },
   "devDependencies": {
-    "async": "^2.0.0-rc.4",
+    "async": "^2.0.0-rc.4"
   },
   "main": "server.js",
   "name": "SupplyChainSecurity",
@@ -13,4 +13,3 @@
   "scripts": {},
   "version": "1.0.0"
 }
-
